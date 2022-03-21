@@ -6,7 +6,7 @@ void main()=>runApp(MaterialApp(
   home: HomePage(),
 )
 );
-//list
+//list of numbers
 var chapterLists=[
   'ch 1',
   'ch 2',
