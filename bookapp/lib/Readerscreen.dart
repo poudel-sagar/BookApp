@@ -31,7 +31,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
     );
   }
 }
-
+//asynchronous
 _loadHtmlCh1() async{
   String fileText = await rootBundle.loadString("assets/ch1.html");
   _controller.loadUrl(Uri.dataFromString(
