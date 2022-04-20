@@ -20,6 +20,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
       appBar: AppBar(
         title: Text('Chapter'+widget.chapterID.toString()),
       ),
+      //using webview
       body: WebView(
         initialUrl: 'about:blank',
         onWebViewCreated: (WebViewController webviewcontroller){
